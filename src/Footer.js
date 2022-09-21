@@ -8,7 +8,7 @@ class Footer extends React.Component {
       //fragments are my parentelement
       <>
         <footer>
-          <p>Created by Andra Steele, horned beast enthusiast &copy;</p>
+          <h3>Created by Andra Steele, horned beast enthusiast &copy;</h3>
 
         </footer>
       </>

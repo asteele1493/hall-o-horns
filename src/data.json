@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "title": "Bosco, the demon queen of Seattle",
+    "description": "Bosco, the demon queen of Seattle",
+    "imageURL": "https://tv-fanatic-res.cloudinary.com/iu/s--iIOsRqzr--/f_auto,q_auto/v1641514659/bosco-entrance-rupauls-drag-race-s14e1"
+  },
+  {
+    "_id": 2,
+    "title": "Prongorn, in the wild",
+    "description": "A pronghorn, hanging out",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Antilocapra_americana.jpg"
+  },
+  {
+    "_id": 3,
+    "title": "Bighorn sheep looking fierce" ,
+    "description": "Bighorn sheep",
+    "imageURL": "https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/bighorn_sheep_montana_megan_joyce_header_0.jpg?itok=MDHAieMR"
+  },
+  {
+    "_id": 4,
+    "title": "A dang unicorn",
+    "description": "Unicorn!",
+    "imageURL": "https://media.newyorker.com/photos/5f5a793e36b6ac443a7ac4c4/4:3/w_2559,h_1919,c_limit/Shouts-FairyUnicorn.jpg"
+  }
+]
