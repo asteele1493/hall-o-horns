@@ -1,5 +1,6 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import data from './data.json';
 
 class Main extends React.Component {
   //react classes require a render method. You need to call it like this.
@@ -7,14 +8,15 @@ class Main extends React.Component {
     return (
       <>
         <HornedBeast 
-        title={"Bosco, the demon queen of Seattle"}
-        description={"Bosco, the demon queen of Seattle"}
-        imageUrl={"https://www.tvfanatic.com/gallery/bosco-entrance-rupauls-drag-race-s14e1/"}
+        title={data[0].title}
+        description={data[0].description}
+        imageUrl={data[0].imageUrl}
         />
-        <HornedBeast />
-        title={""}
-        description={}
-        imageUrl={}
+        <HornedBeast 
+        title={data[1].title}
+        description={data[1].title}
+        imageUrl={data[1].imageUrl}
+        />
       </>
         )
   }
