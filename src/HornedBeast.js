@@ -33,7 +33,6 @@ class HornedBeast extends React.Component {
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>{this.props.description}</Card.Text>
-          {/* <Card.Text> Whatever: {this.state.whatever}</Card.Text> */}
         </Card.Body>
         <Card.Img variant="top" 
         src={this.props.imageURL} 

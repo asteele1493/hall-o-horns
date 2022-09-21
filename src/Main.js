@@ -17,6 +17,16 @@ class Main extends React.Component {
         description={data[1].title}
         imageUrl={data[1].imageUrl}
         />
+        <HornedBeast 
+        title={data[2].title}
+        description={data[2].title}
+        imageUrl={data[2].imageUrl}
+        />
+        <HornedBeast 
+        title={data[3].title}
+        description={data[3].title}
+        imageUrl={data[3].imageUrl}
+        />
       </>
         )
   }
