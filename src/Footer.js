@@ -7,10 +7,8 @@ class Footer extends React.Component {
       //the parens allow me to switch from javascript to jsx
       //fragments are my parentelement
       <>
-        <footer>
           <h3>Created by Andra Steele, horned beast enthusiast &copy;</h3>
 
-        </footer>
       </>
     )
   }
