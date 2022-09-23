@@ -10,9 +10,21 @@ It will do the following things:
 
 ### Updated on 09/20 with lab 02 requirements
 
-Number and name of feature: ________________________________
+Number and name of feature: 1. Display images
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 45 minutes
+
+Start time: 8:30pm
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+------------------------------------------
+
+Number and name of feature: 2. Allowing users to vote for their favorite creature
+
+Estimate of time needed to complete: 45 minutes 
 
 Start time: _____
 
@@ -22,21 +34,9 @@ Actual time needed to complete: _____
 
 ------------------------------------------
 
-Number and name of feature: ________________________________
+Number and name of feature: 3: Bootstrap
 
-Estimate of time needed to complete: _____
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
-
-------------------------------------------
-
-Number and name of feature: ________________________________
-
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 45 minutes 
 
 Start time: _____
 

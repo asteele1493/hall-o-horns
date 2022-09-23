@@ -1,13 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
 
 
 
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
-    clicked = 0;
+    this.state = {
+      favorites: 0
+    }
     //   //We are not allowed to use this.state unless we refer to super and list our props. 
     //   //State object will hold data about the class HornedBeast components
     //   this.state = {
@@ -16,6 +19,9 @@ class HornedBeast extends React.Component {
   }
 }
 
+addFavorites = () => {
+  this.setState({ favorites: this.state.favorites + 1 })
+}
 //the placement for the event handler is super important. Between constructor and render method
 // handleClick = () => {
 
@@ -25,22 +31,31 @@ class HornedBeast extends React.Component {
 render() {
   return (
     <Container>
-      <Card style={{ width: '18rem' }}>
-        onClick={this.handleClick}
+      <Col>
+      <Card className = "h-100 p-2">
         <Card.Body>
+
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>{this.props.description}</Card.Text>
-        <Card.Img variant="top"
-          src={this.props.imageURL}
-          alt={this.props.description}
-          title={this.props.title}/>
-          </Card.Body>
+          <Card.Img variant="top"
+            src={this.props.imageURL}
+            alt={this.props.description}
+            title={this.props.title}
+            onClick={this.addFavorites} />
+          <Card.Text>{this.props.favorites}</Card.Text>
+
+        </Card.Body>
       </Card>
+      </Col>
     </Container>
-  );
-};
-};
+  )
+}
+
 
 
 export default HornedBeast;
 
+//Create state inside of horned beast component 
+
+//add tag to display emoji within render function
+//<p> insert emoji here: {this.state.favorites}</p
