@@ -29,7 +29,7 @@ class HornedBeast extends React.Component {
           <Card className="h-100 p-2" onClick={this.addFavorites}>
             <Card.Body>
               <Card.Img variant="top"
-                src={this.props.imageUrl}
+                src={this.props.imageURL}
                 alt={this.props.description}
                 title={this.props.title} />
 
