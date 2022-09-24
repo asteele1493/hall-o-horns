@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -18,7 +19,11 @@ class HornedBeast extends React.Component {
     this.setState({ favorites: this.state.favorites + 1 });
   };
 
-
+//helper function for what happens when beast is clicked
+  showBeast = () => {
+    if (this.props.state = 
+    }
+  
 
 
   render() {
@@ -36,7 +41,7 @@ class HornedBeast extends React.Component {
               <Card.Title>{this.props.title}</Card.Title>
               <Card.Text>{this.props.description}</Card.Text>
               <Card.Text>{this.state.favorites}</Card.Text>
-
+              <Button onClick={this.showBeast}>Select beast</Button>
             </Card.Body>
           </Card>
         </Col>
