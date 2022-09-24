@@ -16,17 +16,17 @@ Estimate of time needed to complete: 45 minutes
 
 Start time: 8:30pm
 
-Finish time: _____
+Finish time: Piecemealed this assignment. Total time expired on this feature: 52 minutes
 
-Actual time needed to complete: _____
+Actual time needed to complete: 52 minutes
 
 ------------------------------------------
 
 Number and name of feature: 2. Allowing users to vote for their favorite creature
 
-Estimate of time needed to complete: 45 minutes 
+Estimate of time needed to complete: 45 minutes
 
-Start time: _____
+Start time: Piecemealed this assignment. Total time expired 30 minutes
 
 Finish time: _____
 
@@ -36,9 +36,9 @@ Actual time needed to complete: _____
 
 Number and name of feature: 3: Bootstrap
 
-Estimate of time needed to complete: 45 minutes 
+Estimate of time needed to complete: 45 minutes
 
-Start time: _____
+Start time: Piecemealed this assignment. Total time expired 40 minutes
 
 Finish time: _____
 
