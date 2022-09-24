@@ -10,8 +10,8 @@ class Main extends React.Component {
       <>
         {data.map(beast => <HornedBeast
           title={beast.title}
-          imageUrl={beast.imageURL}
-          description={beast.description} />)}
+          description={beast.description} 
+          imageURL={beast.imageUrl}/>)}
       </>
     );
   };
