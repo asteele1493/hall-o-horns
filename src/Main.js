@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component {
   //react classes require a render method. You need to call it like this.
+
   render() {
     return (
       <>
