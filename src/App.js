@@ -18,16 +18,18 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showBeast: false,
+      show: false,
+      selectedBeast: {}
     };
   }
 
-  handleCloseModal = () => {
-    this.setState({ showBeast: false });
+  handleClose = () => {
+    this.setState({ show: false });
   };
 
-  handleShowModal = () => {
-    this.setState({ showBeast: true });
+  handleShow = (beastName) => {
+    const selectedBeast = data.find(currentBeast => currentBeast.title === beastName);
+    this.setState({ show: true, selectedBeast});
   };
 
   render() {
@@ -35,11 +37,15 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <Main
-          data = {data}
-        handleShowModal={this.handleShowModal} />
+        //don't need to store data in state because we aren't changing the array of beasts 
+          data={data}
+          handleShow={this.handleShow} />
         <SelectedBeast
-          show={this.state.showBeast}
-          handleClose={this.handleCloseModal} />
+          show={this.state.show}
+          //doesn't refer to state because handleClose doesn't live in state. It's a method.
+          handleClose={this.handleClose} 
+          selectedBeast={this.state.selectedBeast}
+          />
         <Footer />
 
       </div>
