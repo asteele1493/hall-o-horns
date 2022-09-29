@@ -3,120 +3,159 @@
     "_id": 1,
     "title": "Bosco, the demon queen of Seattle",
     "description": "Bosco, the demon queen of Seattle",
-    "imageURL": "https://tv-fanatic-res.cloudinary.com/iu/s--iIOsRqzr--/f_auto,q_auto/v1641514659/bosco-entrance-rupauls-drag-race-s14e1"
+    "imageURL": "https://tv-fanatic-res.cloudinary.com/iu/s--iIOsRqzr--/f_auto,q_auto/v1641514659/bosco-entrance-rupauls-drag-race-s14e1",
+    "horns": 2
   },
   {
     "_id": 2,
     "title": "Prongorn, in the wild",
     "description": "A pronghorn, hanging out",
-    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Antilocapra_americana.jpg"
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Antilocapra_americana.jpg",
+    "horns": 2
+
   },
   {
     "_id": 3,
     "title": "Bighorn sheep looking fierce",
     "description": "Bighorn sheep",
-    "imageURL": "https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/bighorn_sheep_montana_megan_joyce_header_0.jpg?itok=MDHAieMR"
+    "imageURL": "https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/bighorn_sheep_montana_megan_joyce_header_0.jpg?itok=MDHAieMR",
+    "horns": 2
+
   },
   {
     "_id": 4,
     "title": "A dang unicorn",
     "description": "Unicorn!",
-    "imageURL": "https://media.newyorker.com/photos/5f5a793e36b6ac443a7ac4c4/4:3/w_2559,h_1919,c_limit/Shouts-FairyUnicorn.jpg"
+    "imageURL": "https://media.newyorker.com/photos/5f5a793e36b6ac443a7ac4c4/4:3/w_2559,h_1919,c_limit/Shouts-FairyUnicorn.jpg",
+    "horns": 1
+
   },
   {
     "_id": 5,
     "title": "A kudu",
     "description": "Kudu!",
-    "imageURL": "http://kingdomstv.com/wp-content/uploads/2022/06/0at3194kky831.jpg"
+    "imageURL": "http://kingdomstv.com/wp-content/uploads/2022/06/0at3194kky831.jpg",
+    "horns": 2
+
   },
   {
     "_id": 6,
     "title": "Addax",
     "description": "Look at those horns!",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/11/Addax_4623646.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/11/Addax_4623646.jpg",
+    "horns": 2
+
   },
   {
     "_id": 7,
     "title": "Ibex",
     "description": "So majestic!",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2022/01/Ibex_641173.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2022/01/Ibex_641173.jpg",
+    "horns": 2
+
   },
   {
     "_id": 8,
     "title": "Bharal",
     "description": "Wow so many cool names!",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2022/01/Bharal_2105814.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2022/01/Bharal_2105814.jpg",
+    "horns": 2
+
   },
   {
     "_id": 9,
     "title": "Blackbuck",
     "description": "So many horns, so little time tbh.",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/12/Blackbuck_675113.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/12/Blackbuck_675113.jpg",
+    "horns": 2
+
   },
   {
     "_id": 10,
     "title": "Bongo",
     "description": "I honestly don't think this animal is real.",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2022/01/Mountain-Bongo_2677012-e1641749787334.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2022/01/Mountain-Bongo_2677012-e1641749787334.jpg",
+    "horns": 2
+
   },
   {
     "_id": 11,
     "title": "Cape Buffalo",
     "description": "Look at this up-do, y'all! The higher the hair, the closer to God?",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/11/Cape-Buffalo_3723422.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/11/Cape-Buffalo_3723422.jpg",
+    "horns": 2
+
   },
   {
     "_id": 12,
     "title": "Gazelle",
     "description": "I don't have a quip for this one, sorry.",
-    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/12/Gazelle_4339046.jpg"
+    "imageURL": "https://faunafacts.com/wp-content/uploads/2021/12/Gazelle_4339046.jpg",
+    "horns": 2
+
   },
   {
     "_id": 13,
     "title": "Daniel Radcliffe featuring, you guessed it, horns!!!",
     "description": "Daniel Radcliffe featuring, you guessed it, horns!!!",
-    "imageURL": "https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/horns-2014/Horns-2014-1.jpg"
+    "imageURL": "https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/horns-2014/Horns-2014-1.jpg",
+    "horns": 2
+
   },
   {
     "_id": 14,
     "title": "Horns?",
     "description": "Honestly don't know what's happening here. Maybe don't google image search 'horns.",
-    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwoy9O3NZ-klGLjayU54WpU1nRCn_bkhZq5A&usqp=CAU"
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwoy9O3NZ-klGLjayU54WpU1nRCn_bkhZq5A&usqp=CAU",
+    "horns": 2
+
   },
   {
     "_id": 15,
     "title": "Highland Cattle",
     "description": "My favorite cow.",
-    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqnHuaT6nRHvy0ByCn6168pS7jgh1CG86bw&usqp=CAU"
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqnHuaT6nRHvy0ByCn6168pS7jgh1CG86bw&usqp=CAU",
+    "horns": 2
+
   },
   {
     "_id": 16,
     "title": "Spirit Halloween, horns edition",
     "description": "Spirit Halloween, horns edition",
-    "imageURL": "https://i5.walmartimages.com/asr/b6426e5f-de7a-4ad1-991b-cc784ad2baf7_1.580770a59246dd8a752ee23a8be7de98.jpeg"
+    "imageURL": "https://i5.walmartimages.com/asr/b6426e5f-de7a-4ad1-991b-cc784ad2baf7_1.580770a59246dd8a752ee23a8be7de98.jpeg",
+    "horns": 2
+
   },
   {
     "_id": 17,
     "title": "Baby rhino with baby horns",
     "description": "Baby rhino with baby horns",
-    "imageURL": "https://s7d2.scene7.com/is/image/TWCNews/0112_n13_disney_baby_rhino_ranger"
+    "imageURL": "https://s7d2.scene7.com/is/image/TWCNews/0112_n13_disney_baby_rhino_ranger",
+    "horns": 3
+
   },
   {
     "_id": 18,
     "title": "Baby dik dik!",
     "description": "Baby dik dik!",
-    "imageURL": "https://i.pinimg.com/736x/5a/da/9f/5ada9fd2d66f97365fca2c8e4d40f84b--baby-animals-wild-animals.jpg"
+    "imageURL": "https://i.pinimg.com/736x/5a/da/9f/5ada9fd2d66f97365fca2c8e4d40f84b--baby-animals-wild-animals.jpg",
+    "horns": 2
+
   },
   {
     "_id": 19,
     "title": "Baby lizard!",
     "description": "Baby lizard!",
-    "imageURL": "https://people.com/thmb/Cr3gFmND02CnXmNXFQVJREKa83Q=/400x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1019x581:1021x583)/two-horned-lizard-1-1a16e0425c5f4edea2578a53b3aeb33d.jpg"
+    "imageURL": "https://people.com/thmb/Cr3gFmND02CnXmNXFQVJREKa83Q=/400x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1019x581:1021x583)/two-horned-lizard-1-1a16e0425c5f4edea2578a53b3aeb33d.jpg",
+    "horns": 4
+
   },
   {
     "_id": 20,
     "title": "Baby goat",
     "description": "Baby goat",
-    "imageURL": "https://i.etsystatic.com/10941438/r/il/a1c566/2891175857/il_fullxfull.2891175857_90jz.jpg"
+    "imageURL": "https://i.etsystatic.com/10941438/r/il/a1c566/2891175857/il_fullxfull.2891175857_90jz.jpg",
+    "horns": 2
+
   }
 ]

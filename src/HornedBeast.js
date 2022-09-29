@@ -10,20 +10,15 @@ class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      favorites: 0,
+      favorites: '',
     }
   };
 
 
   addFavorites = () => {
-    this.setState({ favorites: this.state.favorites + 1 });
+    this.setState({ favorites: this.state.favorites + '❤️‍🔥' });
   };
 
-//helper function for what happens when beast is clicked
-  showBeast = () => {
-    if (this.props.state = 
-    }
-  
 
 
   render() {
@@ -31,21 +26,23 @@ class HornedBeast extends React.Component {
     return (
       <Container>
         <Col>
-          <Card className="h-100 p-2" onClick={this.addFavorites}>
-            <Card.Body>
-              <Card.Img variant="top"
-                src={this.props.imageURL}
-                alt={this.props.description}
-                title={this.props.title} />
+        <Card>
+          <Card.Body>
+            <Card.Img variant="top"
+              src={this.props.imageURL}
+              alt={this.props.description}
+              onClick={this.addFavorites}
+              title={this.props.title} />
 
-              <Card.Title>{this.props.title}</Card.Title>
-              <Card.Text>{this.props.description}</Card.Text>
-              <Card.Text>{this.state.favorites}</Card.Text>
-              <Button onClick={this.showBeast}>Select beast</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Container>
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Text>{this.props.description}</Card.Text>
+            <Card.Text>Favorited ❤️‍🔥 times :{this.state.favorites}</Card.Text>
+            <Card.Text>Number of horns: {this.props.horns}</Card.Text>
+            <Button onClick={() => this.props.handleShow(this.props.title)}>Select beast</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+      </Container >
     );
   }
 }
@@ -58,4 +55,6 @@ export default HornedBeast;
 //Create state inside of horned beast component 
 
 //add tag to display emoji within render function
-//<p> insert emoji here: {this.state.favorites}</p
+//<p> insert emoji here: {th
+// {/* my handleShow method isn't working; going to try and move this onClick to my image tag and see if that helps. */ }
+// {/* <Card className="h-100 p-2" onClick={this.addFavorites}> */ }

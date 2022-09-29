@@ -1,26 +1,25 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import App from './App.js';
+import Row from 'react-bootstrap/Row';
 
 // TODO: Send a function into your Main component that allows the user to update state in the App
 
 
 class Main extends React.Component {
   //react classes require a render method. You need to call it like this.
-  constructor(props) {
-    super(props);
-    this.state = {showBeast: false}
-  }
-
-
-
   render() {
     return (
       <>
+        <Row xs={2} sm={3} md={4} lg={5} >
         {this.props.data.map(beast => <HornedBeast
+          key={beast._id}
           title={beast.title}
           description={beast.description} 
-          imageURL={beast.imageURL}/>)}
+          horns={beast.horns}
+          imageURL={beast.imageURL}
+          handleShow={this.props.handleShow}
+          />)}
+        </Row>
       </>
     );
   };
@@ -29,4 +28,3 @@ class Main extends React.Component {
 export default Main;
 
 
-          //map for iterating and rendering through beast objects.
