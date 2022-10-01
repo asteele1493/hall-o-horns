@@ -13,7 +13,6 @@ import Main from './Main';
 import Footer from './Footer';
 import data from './data.json';
 import SelectedBeast from './SelectedBeast';
-// import {Form, Container} from 'react-bootstrap';
 
 
 //This class is super important. 
@@ -24,6 +23,7 @@ class App extends React.Component {
       show: false,
       selectedBeast: {},
       horns: {},
+      gallery: data
     };
   }
 
@@ -35,6 +35,16 @@ class App extends React.Component {
     const selectedBeast = data.find(currentBeast => currentBeast.title === beastName);
     this.setState({ show: true, selectedBeast});
   };
+
+  updateGallery = (numOfHorns) => {
+    console.log(numOfHorns);
+    let gallery = data;
+    if(numOfHorns){
+      console.log("Made it inside if statement!");
+      gallery = data.filter(beast => beast.horns === numOfHorns);
+    }
+    this.setState({gallery: gallery});
+  }
 
   chooseHorns = (e) => {
     const value = e.target.value;
@@ -64,25 +74,9 @@ class App extends React.Component {
         <Header />
         <Main
         //don't need to store data in state because we aren't changing the array of beasts 
-          data={data}
-          handleShow={this.handleShow} />
-         {/* <Container>
-        <Form>
-          <Form.Group>
-            <Form.Label>Filter by horns</Form.Label>
-            <Form.Select 
-            as="select"
-            onChange={this.chooseHorns}
-            >
-              <option>Select</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </Form.Select>
-          </Form.Group>
-        </Form>
-      </Container> */}
+          data={this.state.gallery}
+          handleShow={this.handleShow}
+          updateGallery = {this.updateGallery} />
         <SelectedBeast
           show={this.state.show}
           //doesn't refer to state because handleClose doesn't live in state. It's a method.
