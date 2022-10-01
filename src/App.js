@@ -13,7 +13,7 @@ import Main from './Main';
 import Footer from './Footer';
 import data from './data.json';
 import SelectedBeast from './SelectedBeast';
-import {Form, Container} from 'react-bootstrap';
+// import {Form, Container} from 'react-bootstrap';
 
 
 //This class is super important. 
@@ -66,7 +66,7 @@ class App extends React.Component {
         //don't need to store data in state because we aren't changing the array of beasts 
           data={data}
           handleShow={this.handleShow} />
-         <Container>
+         {/* <Container>
         <Form>
           <Form.Group>
             <Form.Label>Filter by horns</Form.Label>
@@ -82,7 +82,7 @@ class App extends React.Component {
             </Form.Select>
           </Form.Group>
         </Form>
-      </Container>
+      </Container> */}
         <SelectedBeast
           show={this.state.show}
           //doesn't refer to state because handleClose doesn't live in state. It's a method.
